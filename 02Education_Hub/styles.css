@@ -1,0 +1,174 @@
+        body{
+    		background-color: whitesmoke;
+            font-family: "Comic Sans MS",sans-serif; 
+    		margin: 0;
+    	}
+    	header {
+    		padding: 2px;
+            width: 100%;
+            background-color:#1d1d1d;
+            background-image: url(https://www.publicdomainpictures.net/pictures/150000/nahled/banner-header-tapete-14525316867Uo.jpg);
+    		text-align: center;
+    		color: white;
+
+    	}
+        footer {
+            padding: 2px;
+            width: 100%;
+            background-color:#1d1d1d;
+            background-image: url(https://www.publicdomainpictures.net/pictures/150000/nahled/banner-header-tapete-14525316867Uo.jpg);
+            text-align: center;
+            color: white;
+
+        }
+    	nav{
+    		background-color: #034F84;
+    		overflow: hidden;
+            width: 100%;
+            margin: 0;
+    
+    	}
+    	nav ul{
+    		list-style-type: none;
+    		padding: 0;
+    		margin: 0;
+    	}
+    	nav ul li{
+    		float: left;
+
+
+    	}
+    	nav ul li a{
+    		text-decoration: none;
+    		color: white;
+    		padding: 15px 25px;
+    		display: inline-block;
+    		font-size: 18px;
+
+
+    	}
+
+    	nav ul li a:hover{
+    			background :white;
+                border-radius: 5px;
+    		
+                color: black;
+    	}
+    	nav ul li a.active{
+    		background: lightgreen;
+            border-radius: 5px;
+            color: black;
+    	}
+        nav ul li a.active:hover{
+            background-color: white;
+        }
+    	aside{
+    		background-color: whitesmoke;
+    		float: left;
+            color: black;
+    		width: 200px;
+    		text-align: left;
+            height: 480px;
+            overflow-y: scroll;
+    	}
+    	aside ul{
+    		list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+    	}
+    	aside ul li a{
+    		text-decoration: none;
+    		padding: 15px 10px;
+    		display: block;
+            color: black;
+
+    	}
+    	aside ul li a:hover {
+    		background-color: dimgray;
+    		border-radius: 5px;
+            color: white;
+    	}
+    	section{
+    		margin-left: 210px;
+    		border-left: 3px solid gray;
+
+    	}
+    	details{
+    		background-color: #303030;
+    		margin: 5px;
+    		padding: 10px;
+
+    		color: white;
+    	}
+        details:hover{
+            background-color: aqua;
+            color: black;
+        }
+    	article{
+    		background-color: silver;
+    	
+            border-radius: 5px;
+    		padding: 10px;
+    		color: black;
+    	}
+    	summary{
+    		outline: none;
+
+    	}
+    	summary:hover{
+    		
+    		cursor: pointer;
+    	}
+        footer p a{
+            color: white;
+        }
+         footer p a:hover{
+            color: white;
+        }
+        #contact{
+            border: 2px solid black;
+            width: 100%;
+            height: 800px;
+            background:url("laptop.jpg");
+        }
+         #career{
+            border: 2px solid black;
+            width: 100%;
+            height: 800px;
+            background:url("laptop1.jpg");
+        }
+         #aboutus{
+            border: 2px solid black;
+            width: 100%;
+            height: 800px;
+            background:url("laptop2.jpg");
+        }
+         #courses{
+            border: 2px solid black;
+            width: 100%;
+            height: 800px;
+
+            background:url("laptop3.jpg");
+        }
+        #form{
+            border: 2px solid navy;
+            width: 200px;
+            height: 250px;
+            text-align: center;
+            margin-left: 550px;
+            background:url("laptop.jpg");
+        
+            border-radius: 10px;
+        }
+    #btn:hover{
+        background-color: red;
+    }
+   h1{color: white;
+   }
+   #aboutpage{
+    column-count: 4;
+    column-gap: 10px;
+    column-rule: 1px;
+    color: white;
+    font-size: 20px;
+   }
